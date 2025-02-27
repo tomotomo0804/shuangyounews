@@ -1,0 +1,75 @@
+/* ベーススタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダー */
+.header {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid #98c379;
+}
+
+.header img {
+    width: 200px;
+}
+
+/* ナビゲーション */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #98c379;
+    padding: 10px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar a:hover {
+    background-color: #7fa866;
+}
+
+/* メインコンテンツ */
+.main-content {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* YouTube埋め込み */
+.video-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.video-section iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 340px;
+}
+
+/* Apple Podcast */
+.podcast-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* フッター */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #98c379;
+    color: white;
+    margin-top: 20px;
+}
